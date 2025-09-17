@@ -22,7 +22,7 @@
    При необходимости укажите SMTP-настройки для отправки писем.
 3. Установите зависимости:
    ```bash
-   python -m venv .venv
+   python -m venv .venv (при ошибке на macOS используйте python3.12 -m venv .venv)
    source .venv/bin/activate  # или .venv\Scripts\activate в Windows
    pip install -r requirements.txt
    ```
